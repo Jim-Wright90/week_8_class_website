@@ -1,8 +1,7 @@
 ---
-title: "Welcome to Week 8 Distill Practice "
+title: "Week 8 Distill Practice "
 description: |
-  Welcome to our new blog, Week 8 Distill Practice . We hope you enjoy 
-  reading what we have to say!
+  Welcome to our new blog, Week 8 Distill Practice.lib
 author:
   - name: Jim Wright 
     url: https://github.com/Jim-Wright90
