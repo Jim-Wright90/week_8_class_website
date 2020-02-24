@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/2020-02-24-post-2/",
+    "title": "Post 2",
+    "description": "More distill practice",
+    "author": [
+      {
+        "name": "Jim Wright",
+        "url": "https://github.com/Jim-Wright90"
+      }
+    ],
+    "date": "2020-02-24",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-02-24T11:09:36-08:00"
+  },
+  {
     "path": "posts/2020-02-24-week-8-distill-practice/",
     "title": "Week 8 Distill Practice",
     "description": "A short description of the post.",
@@ -12,7 +27,7 @@
     "date": "2020-02-24",
     "categories": [],
     "preview": "posts/2020-02-24-week-8-distill-practice/week-8-distill-practice_files/figure-html5/plot-1.png",
-    "last_modified": "2020-02-24T11:01:20-08:00"
+    "last_modified": "2020-02-24T11:17:13-08:00"
   },
   {
     "path": "posts/welcome/",

@@ -1,7 +1,7 @@
 ---
-title: "Week 8 Distill Practice"
+title: "Post 2"
 description: |
-  A short description of the post.
+  More distill practice
 author:
   - name: Jim Wright
     url: https://github.com/Jim-Wright90
@@ -15,20 +15,16 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Check out this cool plot made wth {ggplot2}(https://ggplot2.tidyverse.org/). 
 
-<aside>
+The plot was slightly adjusted in this post
 
-```{r plot, echo=FALSE} 
+```{r plot 2, include=TRUE}
+
 library(ggplot2)
 
 ggplot(mpg, aes(displ, cty)) +
   geom_point(color = "gray70") +
-  geom_smooth() +
+  geom_smooth(se = FALSE) +
   theme_minimal()
 
 ```
-
-This plot was made with ggplot2
-
-<aside>
