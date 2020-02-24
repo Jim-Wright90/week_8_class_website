@@ -1,0 +1,12 @@
+name: "week_8_class_website"
+title: "Week 8 Distill Practice "
+description: |
+  Week 8 Distill Practice 
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
