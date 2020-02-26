@@ -1,0 +1,65 @@
+---
+title: "Flex Dashboard Practice"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(ggplot2)
+library(gt)
+library(plotly)
+library(reactable)
+
+
+theme_set(theme_minimal(15))
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Plot with a smooth
+
+```{r}
+
+p <- ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth()
+
+
+ggplotly(p)
+```
+
+### Plot with a table 
+```{r table}
+mpg %>% 
+  gt()
+
+
+mpg %>% 
+  select(cty, hwy, displ) %>% 
+  reactable()
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Bar chart
+
+```{r}
+
+ggplot(mpg, aes(class)) + 
+  geom_bar(fill = "#2780E3")
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
