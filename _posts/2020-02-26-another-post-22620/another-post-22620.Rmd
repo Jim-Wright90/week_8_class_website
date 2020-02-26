@@ -1,0 +1,61 @@
+---
+title: "Another Post 2.26.20"
+description: |
+  A short description of the post.
+author:
+  - name: Jim Wright
+    url: https://github.com/Jim-Wright90
+date: 02-26-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height = 7)
+
+library(tidyverse)
+library(here)
+library(rio)
+library(knitr)
+
+```
+
+Plot creation Practice 
+```{r plot example, layout = "l-body-outset"}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Body Outset")
+
+
+```
+
+
+Now try l-page 
+```{r plot example 2, layout = "l-page"}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Body Outset")
+
+```
+
+<aside>
+
+Now try l-screen 
+
+```{r plot example 3, layout = "l-screen"}
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Body Outset")
+
+usethis::git_vaccinate()
+```
+
+<aside>
+
+#reactable::reactable() allows you to make interactive tables that react 

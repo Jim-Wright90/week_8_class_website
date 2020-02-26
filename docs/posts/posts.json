@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/2020-02-26-another-post-22620/",
+    "title": "Another Post 2.26.20",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Jim Wright",
+        "url": "https://github.com/Jim-Wright90"
+      }
+    ],
+    "date": "2020-02-26",
+    "categories": [],
+    "preview": "posts/2020-02-26-another-post-22620/another-post-22620_files/figure-html5/plot example-1.png",
+    "last_modified": "2020-02-26T10:32:37-08:00"
+  },
+  {
     "path": "posts/2020-02-24-post-2/",
     "title": "Post 2",
     "description": "More distill practice",
